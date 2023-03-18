@@ -1,0 +1,13 @@
+
+/* Title Font */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+/* variables */
+:root
+{
+    --topBarColor: #d7ba8e;
+    --backgroundColor: #ffebcd;
+
+    --linePixelValue: 1;
+}

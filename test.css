@@ -1,0 +1,26 @@
+.curvedArrow
+{
+  position: relative;
+  width: 0;
+  height: 0;
+  left: 16px;
+  top: 16px;
+  border-top: 12px solid transparent;
+  border-right: 12px solid darkcyan;
+  transform: rotate(10deg);
+}
+
+.curvedArrow:after
+{
+  content: '';
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 6px solid darkcyan;
+  border-radius: 20px 0 0 0;
+  top: -16px;
+  left: -12px;
+  width: 16px;
+  height: 16px;
+  transform: rotate(45deg);
+
+}

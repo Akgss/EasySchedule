@@ -1,0 +1,285 @@
+.aboutPage
+{
+    width: 100vw;
+}
+
+
+.aboutPage .behind 
+{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    min-width: 40vw;
+    height: 575px;
+    background-color: var(--topBarColor);
+    z-index: 0;
+}
+
+.aboutPage .front
+{
+    position: absolute;
+    top: 125px;
+    left: 75px;
+    width: 40vw;
+    height: 575px;
+    background-color: white;
+    z-index: 1;
+}
+
+.aboutPage .intro
+{
+    position: absolute;
+    font-size: 2.5em;
+    padding: 10px 0 0 10px;
+}
+
+.aboutPage .about
+{
+    position: absolute;
+    padding: 75px 0 0 15px;
+}
+
+.aboutPage .lines
+{
+    position: absolute;
+    left: 15px;
+    width: 35vw;
+    height: 5px;
+    background-color: black;
+    color: black;
+    top: 125px;
+}
+
+.aboutPage #line2
+{
+    top: 150px;
+    width: 30vw;
+}
+
+.aboutPage #line3
+{
+    top: 175px;
+    width: 37vw;
+}
+
+.aboutPage #line4
+{
+    top: 200px;
+    width: 20vw;
+}
+
+.aboutPage #line5
+{
+    top: 225px;
+    width: 25vw;
+}
+ 
+.aboutPage #line6
+{
+    top: 250px;
+    width: 30vw;
+}
+
+.aboutPage #line7
+{
+    top: 275px;
+    width: 15vw;
+}
+
+.aboutPage #line8
+{
+    top: 300px;
+    width: 30vw;
+}
+
+.aboutPage #line9
+{
+    top: 325px;
+    width: 10vw;
+}
+
+.aboutPage #line10
+{
+    top: 350px;
+    width: 25vw;
+}
+ 
+.aboutPage #line11
+{
+    top: 375px;
+    width: 30vw;
+}
+
+.aboutPage #line12
+{
+    top: 400px;
+    width: 5vw;
+}
+
+.aboutPage #line13
+{
+    top: 425px;
+    width: 30vw;
+}
+
+.aboutPage #line14
+{
+    top: 450px;
+    width: 20vw;
+}
+
+.aboutPage #line15
+{
+    top: 475px;
+    width: 35vw;
+}
+ 
+.aboutPage #line16
+{
+    top: 500px;
+    width: 25vw;
+}
+
+.aboutPage #line17
+{
+    top: 525px;
+    width: 30vw;
+}
+
+.aboutPage #line18
+{
+    top: 550px;
+    width: 20vw;
+}
+
+.aboutPage .instructions .instructionsBack
+{
+    position: absolute;
+    top: 150px;
+    right: 500px;
+    width: 200px;
+    height: 200px;
+    background-color: var(--topBarColor);
+}
+
+.aboutPage .instructions #back2
+{
+    right: 75px;
+}
+
+.aboutPage .instructions #back3
+{
+    top: 525px;
+}
+
+.aboutPage .instructions #back4
+{
+    top: 525px;
+    right: 75px;
+}
+
+
+.aboutPage .instructions .instructionsFront
+{
+    position: absolute;
+    top: 125px;
+    right: 525px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.aboutPage .instructions #front2
+{
+    right: 100px;
+}
+
+.aboutPage .instructions #front3
+{
+    top: 500px;
+}
+
+.aboutPage .instructions #front4
+{
+    top: 500px;
+    right: 100px;
+}
+
+
+.aboutPage .instructions .curvedArrowIcon
+{
+    position: absolute;
+    scale: .25;
+    right: 150px;
+    top: -25px;
+    transform: rotate(-135deg);
+}
+
+.aboutPage .instructions #curvedArrow2
+{
+    right: -50px;
+    top: 165px;
+    rotate: 90deg;
+}
+
+.aboutPage .instructions #curvedArrow3
+{
+    rotate: 180deg;
+    top: 350px;
+}
+
+.aboutPage .instructions #curvedArrow4
+{
+    right: 350px;
+    top: 155px;
+    rotate: -90deg;
+}
+
+.aboutPage .instructions .repeatText
+{
+    position: absolute;
+    top: 375px;
+    right: 325px;
+    font-size: 2.5em;
+}
+
+.aboutPage .instructions .instructionsFront .instructionsText
+{
+    text-align: center;
+}
+
+.aboutPage .instructions .instructionsFront .checkOffImg
+{
+    position: absolute;
+    scale: .25;
+    top: -150px;
+    right: -170px;
+    rotate: -10deg;
+}
+
+.aboutPage .instructions .instructionsFront .checkListImg
+{
+    position: absolute;
+    scale: .25;
+    top: -150px;
+    right: -170px;
+    rotate: -10deg;
+}
+
+.aboutPage .instructions .instructionsFront .prioritizeImg
+{
+    position: absolute;
+    scale: .25;
+    top: -140px;
+    right: -170px;
+
+}
+
+.aboutPage .instructions .instructionsFront .scheduleImg
+{
+    position: absolute;
+    scale: .25;
+    top: -135px;
+    right: -170px;
+    rotate: -10deg;
+}
